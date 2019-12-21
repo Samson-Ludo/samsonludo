@@ -225,7 +225,7 @@
         <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
         <h2 class="text-white mb-5">Subscribe to receive updates - tech news, blogs and videos!</h2>
 
-        <form class="form-inline d-flex" netlify>
+        <form class="form-inline d-flex" name="email-address-for-subs" method="POST" data-netlify="true">
           <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail"
             placeholder="Enter email address..." required>
           <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
@@ -242,7 +242,7 @@
   <section id="contact" class="contact-section  text-center bg-black">
     <div class="container mb-5">
       <h2 class="text-white  mb-4">I'm available for your next project. Contact me now!</h2>
-      <form name="contact" netlify>
+      <form name="contact" method="POST" data-netlify="true">
         <div class="form-group">
           <p class="text-white-50">Email address</p>
           <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
